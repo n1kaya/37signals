@@ -1,9 +1,10 @@
-/*SITEWIDE RESETS*/
+/*
+* SITEWIDE RESETS
+*/
 * {
-	margin: 0;
-	padding: 0;
+	margin:0;
+	padding:0;	
 }
-
 body {
 	font-family: 'Crimson Text', sans-serif;
 }
@@ -12,134 +13,127 @@ a {
 	text-decoration: none;
 	color: #369;
 }
-
-/*HEADER & SECTION STYLES*/
+/*
+* HEADER & SECTION STYLES
+*/
 header,
-section {
-	margin: 30px auto;
-	width: 825px;
+section {	
+	margin: 1% auto;
+	width: 67%;
 	display: block;
 }
-
-/*HR STYLES*/
+/*
+* HR STYLES
+*/
 hr {
-	background: white url('../images/img-hr.png') no-repeat scroll 50% 50%;
+	background: white url('../img/img-hr.png') no-repeat scroll 50% 50%;
 	clear: both;
 	border: 0;
 	height: 12px;
 }
-
-/*SUPSCRIPT STYLES*/
+/*
+* SUPSCRIPT STYLES
+*/
 sup {
 	color: #999;
 	font-weight: normal;
 	font-size: 11px;
 }
-
-/*NAVIGATION*/
-nav {
+/*
+* NAVIGATION
+*/
+nav {	
 	min-width: 100%;
 	height: 48px;
 	font-family: sans-serif;
 }
-
 nav ul {
 	float: right;
 	margin: 12px 18px;
 	padding: 10px 30px;
 }
-
 nav li {
 	margin: 0 5px;
 	padding: 5px;
 	font-size: 12px;
-	display: inline;
+	display: inline-block;
 	color: #369;
 }
-
 nav a:hover {
 	color: #18AFE0;
 }
-
-.signin {
+nav a.signin {
 	color: #18AFE0;
 }
-
-.signin:hover {
+nav a.signin:hover {
 	color: #369;
 }
-
-/*HEADER*/
+/* 
+* HEADER 
+*/
 header {
-	clear: both;
-	height: 163px;
-	padding: 6px 0;
+	clear: right;
+	padding: 5px 0;
 	text-align: center;
 }
-
 header h1 {
 	font-size: 58px;
-	line-height: 1em;
+	line-height: 58px;
 	margin: 10px 0;
 	color: #232323;
 }
-
 header h5 {
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 1.5em;
+	font-size: 20px;	
+	line-height: 30px;
 	margin: 10px 0;
 	color: #222;
 }
-
-/*PRODUCTS*/
+/*
+* PRODUCTS 
+*/
 .products {
 	text-align: center;
-	height: 288px;
-	padding-bottom: 30px;
+	height: 275px;
 }
-
 .products a {
-	position: relative;
-	top: 40px;
-	left: 75px;
-	width: 160px;
-	margin: 15px 20px 5px;
+	width: 22%;
+	margin: 5px 20px;
 	float: left;
 	border: 1px solid #E8E8E8;
 	border-radius: 5px;
 	box-shadow: 0 0 5px #EFEFEF;
-	padding: 20px 10px;
+	padding: 20px 10px 10px;
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
 }
-
+.products a:first-child {
+	margin-left: 10%;
+}
 .products h3 {
 	font-size: 21px;
 	color: #369;
 	font-weight: bold;
-	line-height: 1.5em;
+	line-height: 32px;
 	margin-bottom: 10px;
 }
-
 .products h3 span {
 	text-decoration: underline;
 }
-
 .products h4 {
 	margin: 10px 0;
 	font-size: 14px;
 	color: #C00;
 }
-
 .products p {
 	color: #222;
 	font-size: 14px;
-	line-height: 1.4em;
+	line-height: 20px;
 	margin: 5px 0;
 }
-
-/*CUSTOMERS*/
+/*
+* CUSTOMERS
+*/
 .customers {
 	margin-bottom: 50px;
 	position: relative;
@@ -147,93 +141,81 @@ header h5 {
 .customers h2 {
 	color: #232323;
 	font-size: 48px;
-	line-height: 1.1em;
+	line-height: 48px;
 	letter-spacing: -1px;
 	text-align: center;
 }
-
 .customers p {
 	font-size: 22px;
-	line-height: 1.3em;
+	line-height: 26px;
 	color: #666;
-	margin-bottom: 20px;
+	margin-bottom: 20px;	
 }
-
-/*MEET SOME CUSTOMERS*/
+/*
+* MEET SOME CUSTOMERS 
+*/
 .meet {
 	position: absolute;
-	left: -140px;
-	top: 70px;
+    left: -140px;
+    top: 70px;
 }
-
 .meet a {
 	display: block;
 	width: 143px;
 	height: 104px;
-	background: url('../images/img-customers.png') no-repeat 0 0;
-	text-indent: -1000em;
+	background: url('../img/img-customers.png') no-repeat 0 0;
+	text-indent: -1000px;
 }
-
 .meet a:hover {
 	background-position: 0 100%;
 }
-
 .meet p {
 	font-size: 14px;
 	text-align: center;
 	color: #369;
 }
-
 .meet p:hover {
 	color: #69C;
 	text-decoration: underline;
 }
-
-/*RED ARROW IMAGE*/
+/*
+* RED ARROW IMAGE
+*/
 .arrow-left {
 	width: 69px;
 	height: 36px;
 	position: relative;
 	top: -35px;
 }
-
-/*GLOBE IMAGE*/
+/*
+* GLOBE IMAGE
+*/
 .globe {
 	float: right;
 }
-
-/*MANIFESTO*/
+/*
+* MANIFESTO
+*/
 .manifesto {
 	margin-bottom: 50px;
-	padding-left: 15px;
 	overflow: hidden;
 	text-align: center;
 }
-
 .manifesto h2 {
 	color: #232323;
 	font-size: 48px;
-	line-height: 1.1em;
+	line-height: 48px;
 	letter-spacing: -1px;
 	margin: 30px 0;
 }
-
 .column,
 .column-end {
 	float: left;
 	color: #222;
 	font-size: 18px;
-	line-height: 1.5em;
-}
-
-.column {
-	width: 380px;
-	margin-right: 40px;
-}
-
-.column-end {
-	margin-right: 0px;
-	width: 380px;
+	line-height: 27px;
+	width: 43%;
+	margin: 0 3%;
 }
 
 .manifesto h3 {
@@ -249,373 +231,265 @@ header h5 {
 	color: #C00;
 	text-align: left;
 }
-
 .manifesto p {
 	font-family: 'Roboto', sans-serif;
 	text-align: left;
-	line-height: 1.4em;
+	line-height: 18px;
 	font-size: 12px;
 }
-
-/*REWORK*/
+/* 
+* REWORK
+*/
 .rework {
 	height: 500px;
 	position: relative;
 }
-
-.rework h2 {
+.rework h2{
 	margin: 30px 0;
 	font-size: 48px;
-	line-height: 1.1em;
+	line-height: 48px;
 	letter-spacing: -1px;
-	text-align: center;	
+	text-align: center;
 }
-
-/*BOOK IMAGE*/
+/* 
+* BOOK IMAGE
+*/
 .book {
-	float: left;
+	float:left;
 }
-
-/*QUOTES*/
+/* 
+* QUOTES
+*/
 .quotes {
 	padding-top: 5px;
 	text-align: center;
 }
-
 .quotes h3 {
 	color: #888;
 	font-weight: normal;
-	font-family: 'CrimsonRomanItalic', serif;
+	font-family: "CrimsonRomanItalic", serif;
 	font-style: italic;
 	font-size: 22px;
 	margin-top: 35px;
 	margin-bottom: 10px;
 }
-
 .quotes p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 }
-
-/*ARROW RIGHT IMAGE*/
+/* 
+* ARROW RIGHT IMAGE
+*/
 .arrow-right {
 	width: 69px;
 	position: absolute;
 	top: 140px;
 	right: 5px;
 }
-
-/*CRUMPLED PAPER IMAGE*/
+/* 
+* CRUMPLED PAPER IMAGE
+*/
 .crumple {
 	position: absolute;
 	top: 50px;
 	right: -125px;
 }
-
 .crumple p {
 	font-size: 12px;
 	text-align: center;
 }
-
 .crumple p:hover {
 	color: #69C;
 	text-decoration: underline;
 }
-
-/*OFFERINGS*/
+/*
+* OFFERSINGS
+*/
 .offerings h2 {
 	margin: 30px 0;
 	font-size: 48px;
 	text-align: center;
 }
-
-.offerings .column h3,
+.offerings .column h3, 
 .offerings .column-end h3 {
 	margin: 5px 0;
 	font-size: 14px;
 	color: #C00;
 }
-
-.offerings .column h3,
+.offerings .column h3, 
 .offerings .column-end h3 {
 	border-bottom: 1px solid #E8E8E8;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 }
-
-.offerings .column {
-	float: left;
-	width: 300px;
-	margin-right: 30px;
-	margin-left: 110px;
-	text-align: center;
-}
-
+.offerings .column,
 .offerings .column-end {
 	float: left;
-	width: 300px;
-	margin-right: 0;
-	margin-left: 0;
-	margin-bottom: 30px;
+	width: 34%;
 	text-align: center;
+	margin: 0 8%;
 }
-
 .offerings .column li,
 .offerings .column-end li {
 	list-style-type: none;
 	padding: 5px;
 }
-
 .offerings .column a,
 .offerings .column-end a {
 	font-size: 22px;
 	font-weight: bold;
 	color: #222;
 }
-
 .offerings .column small,
 .offerings .column-end small {
 	color: #666;
 	font-size: 12px;
 	font-family: 'Lucida Grande', sans-serif;
 }
-
-/*FOOTER*/
+/* Footer */
 footer {
 	margin: 30px auto;
 	text-align: center;
-	line-height: 1.5em;
+	line-height: 24px;
 	font-family: 'Lucida Grande', sans-serif;
 }
-
 footer h3 {
 	font-size: 14px;
 	color: #C00;
 }
-
 footer a {
 	text-decoration: none;
 }
-
 footer li {
 	font-size: 12px;
 	padding: 5px 0;
 }
-
 footer a:hover {
 	color: #69C;
 }
-
 footer p {
 	font-size: 10px;
-	color: #999;
+	color: #999;	
 	margin-top: 50px;
 }
 
+
 /*MEDIA QUERIES*/
-@media screen and (max-width: 1110px) {
+
+/* start max-width 1200px*/
+@media screen and (max-width: 1200px) {
+	.meet, 
 	.arrow-left,
-	.arrow-right,
+	.customers > img,
 	.crumple,
-	.meet {
+	.arrow-right {
 		display: none;
 	}
-}
-
-@media screen and (max-width: 905px) {
-	.products a {
-		width: 60%;
+	header,
+	section {
+		width: 80%;
 	}
-
-.globe {
-	display: none;
-}
-
-.companylogos {
-	width: 80%;
-}
-
-.products {
-	margin-bottom:500px;
-}
-
-.offerings {
-	margin-bottom: 750px;
-}
-
-@media screen and (max-width: 900px) {
-	section, 
-	header {
-	width: 75%;
-	}
-
-	.customers h2,
-	.manifesto h2,
-	.rework h2,
-	.offerings h2,
-	header h1 {
-	font-size: 45px;
-	}
-
-	.column, 
-	.column-end {
-    margin: 0 auto;
-    width: 80%;
-    float: none; 
-	}
-
-	.offerings .column,
-	.offerings .column-end {
-		margin: 0 auto;
-		width: 80%
-	}	
-
-	.column-end div:first-child, 
-	.manifesto .column div:nth-child(n+2),
-	.manifesto .column-end div:nth-child(n+2) {
-	clear: left;
-}
-
-@media screen and (max-width: 860px) {
-	.rework .quotes h3 {
-	font-size: 18px;
-	}
-	
-	.rework .quotes p {
-	font-size: 10px;
-	}
-}
-
-@media screen and (max-width: 840px) {
-	.customers h2,
-	.manifesto h2,
-	.rework h2,
-	.offerings h2,
 	header h1 {
 		font-size: 42px;
+		line-height: 42px;
+		margin: 0 5%;
 	}
-}
-
-@media screen and (max-width: 810px) {
-	.book {
-		display: none;
-	}
-}
-
-@media screen and (max-width: 785px) {
 	.customers h2,
 	.manifesto h2,
 	.rework h2,
-	.offerings h2,
-	header h1 {
-		font-size: 38px;
-	}
-	.customers p {
-		font-size: 14px;
-	}
-	.rework {
-		height: 430px;
-	}
-}
-
-@media screen and (max-width: 715px) {
-	.customers h2,
-	.manifesto h2,
-	.rework h2,
-	.offerings h2,
-	header h1 {
+	.offerings h2 {
 		font-size: 32px;
+		line-height: 32px;
 	}
-	header h5 {
-		font-size: 14px;
-	}
-}
-
-@media screen and (max-width: 630px) {
-	.rework {
-		height: 460px;
-		}
-	}
-@media screen and (max-width: 605px) {
-	.customers h2,
-	.manifesto h2,
-	.rework h2,
-	.offerings h2,
-	header h1 {
-	font-size: 28px;
-	}
-
-	.rework {
-	height: 415px;
-	}
-}
-
-@media screen and (max-width: 580px) {
-	nav li {
-	font-size: 10px;
-	}
-	footer p a {
-	display: block;
-	}
-}
-
-@media screen and (max-width: 555px) {
-	.products {
-	margin: 15px auto 520px;
-	}
-	.products a {
-		left: 45px;
-} 
-
-@media screen and (max-width: 520px) {
-	nav li {
-	margin: 0 3px;
-	padding: 3px;
-	}
-	nav ul {
-	margin: 6px 9px;
-	padding: 5px 15px;
-	}
-	.products {
-	margin: 15px auto 535px;
-	}
-	.products a {
-	left: 35px;
+	.customers h2 {
+		padding: 0 0 20px 0;
 	}
 	.manifesto h4 {
-	font-size: 14px;
+		font-size: 16px;
 	}
 	.manifesto p {
-	font-size: 10px;
-	line-height: 14px;
+		font-size: 10px;
+		line-height: 14px;
+	}
+	.manifesto .column div:nth-child(n+2),
+	.manifesto .column-end div:nth-child(n+2) {
+		clear: left;
 	}
 	.offerings .column small, .offerings .column-end small {
-	font-size: 10px;
-	}
-	.rework {
-		height: 440px;
-	}
-}
-
-@media screen and (max-width: 495px) {
-	.rework {
-	height: 450px;
+	    font-size: 10px;
 	}
 
-@media screen and (max-width: 440px) {
-	nav li {
-		margin: 0 2px;
-		padding: 2px;
-		font-size: 8px;
+} /* end max-width 1200px*/
+
+
+/* start max-width 1050px*/
+@media screen and (max-width: 1050px) {
+	.customers p {
+	    font-size: 16px;
+	    line-height: 20px;
 	}
-	nav ul {
-	margin: 3px 6px;
-	padding: 3px 8px;
+	.quotes h3 {
+		font-size: 18px;
 	}
-	.manifesto p {
-	font-size: 8px;
+	.products a:first-child {
+    	margin-left: 5%; 
 	}
-	.rework {
-		height: 500px;
+} /* end max-width 1050px*/
+
+
+/* start max-width 900px*/
+@media screen and (max-width: 900px) {
+	header h1 {
+		font-size: 36px;
+		line-height: 36px;
 	}
-}
+	.products a:first-child {
+    	margin-left: 10%; 
+	}
+	.products a {
+	    width: 80%;
+	    display: block;
+	    margin: 3% 10%;
+	}	
+	.column, .column-end {
+	    float: none; 
+	    width: 75%;
+	    margin: 0 auto;
+	}
+	.column-end div:first-child {
+		clear: left;
+	}
+	.customers p{
+		font-size: 18px;
+	}
+	.manifesto + hr,
+	.rework + hr {
+		display: none;
+	}
+	.rework, .offerings {
+		display: none;
+	}
+} /* end max-width 90px*/
+
+
+/* start max-width 600px*/
+@media screen and (max-width: 600px) {
+	.customers h2,
+	.manifesto h2,
+	.rework h2,
+	.offerings h2 {
+		font-size: 24px;
+		line-height: 24px;
+	}
+	header h1 {
+		font-size: 28px;
+		line-height: 28px;
+	}
+	header h5 {
+	    font-size: 16px;
+	    line-height: 25px;
+	}
+	.column, .column-end {
+	    width: 90%;
+	}
+} /* end max-width 600px*/
